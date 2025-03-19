@@ -1,7 +1,14 @@
+import gatinho from '../assets/gatinho.jpg';
+import '../styles/App.css'
 const App = () => {
     return (
-        <div>
-        <h1>MEOW</h1>
+        <div className='gato'>
+            <img src={gatinho} alt="gatinho ocean" width={300} className='imagemgato'/>
+            <div className='buttom1'>
+                <button>
+                    MEOW
+                </button>
+            </div>
         </div>
     )
 };

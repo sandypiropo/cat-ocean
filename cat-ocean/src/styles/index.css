@@ -4,8 +4,19 @@
   font-size: 30px;
 
   color: black;
-  background-color: #ffffff;
+  background-color: #ccc;
+  height: 100%;
 }
+
+#root {
+  display: flex;
+  background-color: rgb(92, 90, 90);
+  justify-content: center;
+}
+
+
+
+
 
 @media{
 }

@@ -4,3 +4,12 @@ h1 {
     color: black;
   }
   
+  .gato {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(255, 248, 145);
+    align-items: center;
+    border-radius: 15px;
+}
+
