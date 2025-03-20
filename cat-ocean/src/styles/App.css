@@ -13,3 +13,8 @@ h1 {
     border-radius: 15px;
 }
 
+.imagemgato {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+}
