@@ -6,14 +6,19 @@
   color: black;
   background-color: #ccc;
   height: 100%;
+  margin: 0;
+  padding: 0;
 }
 
-#root {
-  display: flex;
-  background-color: rgb(92, 90, 90);
-  justify-content: center;
+html, body, #root {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: none;
 }
-
+  
 
 
 

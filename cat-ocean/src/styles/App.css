@@ -1,20 +1,62 @@
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.5s ease-in-out;
+    position: relative;
+}
+
+.theme-selector {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    display: flex;
+    gap: 10px;
+}
+
+.theme-box {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 8px;
+}
+
+.orange {
+    background-color: #FFA500;
+}
+
+.white {
+    background-color: #ffffffff;
+}
+
+.pink{
+    background-color: #ffc0cb;
+}
+
+.green {
+    background-color: #0b490bd7;
+}
+
 h1 {
     font-size: 3.2em;
     line-height: 1.1;
-    color: black;
+    color: rgb(0, 0, 0);
   }
   
-  .gato {
-    flex-direction: column;
+.gato {
     display: flex;
     justify-content: center;
-    background-color: rgb(255, 248, 145);
     align-items: center;
-    border-radius: 15px;
-}
+    flex-grow: 1;
+    width: 100%;
+  }
 
 .imagemgato {
-  width: 300px;
-  height: 300px;
-  object-fit: cover;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
 }
